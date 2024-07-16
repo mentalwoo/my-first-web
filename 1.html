@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>pineapple</title>
+    <meta charset="utf-8">
+    <style>
+        h1 {
+            text-align: center;
+            border: width 5px;
+            border-color: brown;
+            border-style: solid;
+            padding: 20px;
+            margin: 20px;
+        }
+        a {
+            color:skyblue; text-decoration: underline;
+        }
+        .Korea {
+            color:green; text-decoration: underline;
+        }
+        .USA {
+            color:black; text-decoration: underline;
+        }
+        #daum {
+            color:green;
+        }
+        div {
+            border : 5px solid  gray;
+            display : grid;
+            grid-template-columns: 100px 1fr;
+        }
+        #gri {
+            border: 5px solid pink;
+        }
+        #UNI {
+            color:crimson;
+        }
+        @media(max-width:700px){
+            #gri{
+                display: none;
+            }
+        }
+    </style>
+
+    <script>
+        document.write(1+1);
+
+    </script>
+</head>
+
+<body>
+<h1>정신우, 그는 누구인가</h1>
+<p>
+    <img src="nota.png" width="300">
+    <img src="" width="300">
+</p>
+
+<p>
+<h2>간단 소개</h2>
+<li>2007.05.13</li>
+<li>청라고 수학동아리 노타의 인재</li>
+<li>노타에 없어서는 안될 인물</li>
+<!-- <li><a href="https://www.naver.com/" class="Korea" target="_blank" title="NAVER" id="daum" >NAVER</a></li>
+<li><a href="https://www.apple.com/kr/" target="_blank" title="Apple" class="USA">Apple</a></li> -->
+<li>기다려라<a href="https://cs.korea.ac.kr/cs/index.do" target="_blank" id="UNI"> 고려대학교</a></li>
+<p>
+<h2>출신 학교</h2>
+<li><a href="https://cheongram.icees.kr/" target="_blank">청람초등학교</a></li>
+<li><a href="https://icr.icems.kr/" target="_blank">청람중학교</a></li>
+<li><a href="http://cheongra.icehs.kr/main.do" target="_blank">청라고등학교</a></li>
+<br>
+<br>
+<br>
+<h2>애제자들</h2>
+<img src="mba.webp" width="100">, <h4>"형님 축구 좀 알려주세요!"</h4>
+<img src="cur.avif" width="100">, <h4>"형님 농구 좀 알려주세요!"</h4>
+<img src="faker.jpg" width="100">, <h4>"형님 게임 좀 알려주세요!"</h4>
+<img src="sung.jpg" width="100">, <h4>"형님 노래 좀 알려주세요!"</h4>
+<img src="mr.webp" width="100">, <h4>"형님 유튜브 좀 알려주세요!"</h4>
+<img src="musk.webp" width="100">, <h4>"형님 경영 좀 알려주세요!"</h4>
+<img src="hy.webp" width="100">, <h4>"형님 수학 좀 알려주세요!"</h4>
+<h5>자랑스러운 제 제자들입니다</h5>
+<!-- <h2>스승님</h2>
+<img src="tony.avif" width="300">, <h4>"자비스를 너에게 넘기마!"</h4> -->
+<div id="gri">
+    <div>dnwnandwnda</div>
+    <div>jdwuduadwnaond</div>
+</div>
+</p>
+</p>
+<input type="button"
+value="button"
+onclick="alert('hi')">
+
+<input type="text"
+onchange="alert('changed')">
+
+<input type="button"
+value="day" onclick="
+if (document.querySelector('body').
+dataset.mode ===
+'night'){
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color='black';
+    document.querySelector('body').dataset.mode = 'day';
+    this.value = 'day';
+}
+else{
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color='white';
+    document.querySelector('body').dataset.mode = 'night';
+    this.value = 'night';
+
+}
+
+">
+</body>
+
+
+</html>
